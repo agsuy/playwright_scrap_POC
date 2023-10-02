@@ -1,0 +1,16 @@
+{
+  "launchOptions": {
+    "headless": true,
+    "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+  },
+  "contextOptions": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "serviceWorkers": "block",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "outFile": "info.csv",
+  "ticker": "UYU"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "playwright_scrap",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.38.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "3.0.3"
+  },
+  "private": true,
+  "scripts": {}
+}

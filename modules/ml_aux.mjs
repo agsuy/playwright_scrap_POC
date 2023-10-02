@@ -1,0 +1,14 @@
+import { generatePageNumbers } from "./helpers.mjs";
+
+export const getSearchPath = (item, basePath) => {
+  const template = basePath.replace("ITEM", item);
+  return template;
+};
+
+export const genPagesML = (pages, item, domain, basePath) => {
+  console.log("Scrapping ", pages, "pages");
+  let baseMod = generatePageNumbers(pages).map(
+    (page) => domain + basePath.replace(/\d+/, page),
+  );
+  return baseMod;
+};
