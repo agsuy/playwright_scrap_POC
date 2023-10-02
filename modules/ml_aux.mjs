@@ -6,7 +6,7 @@ export const getSearchPath = (item, basePath) => {
 };
 
 export const genPagesML = (pages, domain, basePath) => {
-  console.log("Scrapping ", pages, "pages");
+  console.log("Scrapping", pages, "pages");
   const baseMod = generatePageNumbers(pages).map(
     (page) => domain + basePath.replace(/\d+/, page),
   );
