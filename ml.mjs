@@ -60,7 +60,7 @@ const urls = genPagesML(numPages, domain, searchPath);
             !item.querySelector("a").href.includes("click1.mercadolibre"),
         ) //  Filter sponsored products, might not work in Brazil
         .forEach((product) => {
-          const name = product.querySelector("a").title; // Products that contain commas in their name will to be addressed on the CSV file
+          const name = product.querySelector("a").title; // Products that contain commas in their name are better addressed on the CSV file
           const price = product.querySelector(
             "span.andes-money-amount__fraction",
           ).innerText;
