@@ -5,9 +5,9 @@ export const getSearchPath = (item, basePath) => {
   return template;
 };
 
-export const genPagesML = (pages, item, domain, basePath) => {
+export const genPagesML = (pages, domain, basePath) => {
   console.log("Scrapping ", pages, "pages");
-  let baseMod = generatePageNumbers(pages).map(
+  const baseMod = generatePageNumbers(pages).map(
     (page) => domain + basePath.replace(/\d+/, page),
   );
   return baseMod;
