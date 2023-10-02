@@ -1,6 +1,7 @@
-# ML.MJS Web Scraper
+# Playwright Web Scraper
 
-ML.MJS is a web scraper built with Playwright, designed to scrape product data from an e-commerce webpage.
+Just a web scraper built with Playwright, designed to scrape product data from any e-commerce webpage.
+PoC implemented for mercadolibre.
 The script is written in ES6 module syntax and utilizes a `.env` file for environment variables and a `config.json` file for configuration settings.
 It could be easily modified to support any other website.
 
